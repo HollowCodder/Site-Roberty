@@ -4,19 +4,14 @@
     font-family: gotham;
     src: url(../font/Gotham_Black.otf);
 }
-@font-face {
-    font-family: poppins;
-    src: url(https://fonts.google.com/share?selection.family=Poppins:ital,wght@0,500;);
-}
 
 *{
     padding: 0px;
     margin: 0px;
 }
 
-
 body{
-    font-family: gotham, poppins;
+    font-family: gotham, sans-serif;
     width: 100vw;
 }
 
