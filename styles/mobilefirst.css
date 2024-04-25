@@ -23,7 +23,7 @@ div#whatsapp{
     display: flex;
     flex-direction: row;
     background-color: #c7720f;
-    width: 160px;
+    width: 200px;
     border-radius: 15px;
     margin: auto;
 }
