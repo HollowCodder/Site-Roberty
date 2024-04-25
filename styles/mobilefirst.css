@@ -33,7 +33,7 @@ div#whatsapp{
     display: flex;
     flex-direction: row;
     background-color: #c7720f;
-    width: 190px;
+    width: 200px;
     border-radius: 15px;
     margin: 10px 0px 0px 30px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.56);
@@ -44,6 +44,7 @@ div#whatsapp>p{
 }
 
 img#logowhats{
+    height: 35px;
     width: 35px;
 }
 
@@ -51,4 +52,26 @@ div#caixaazul{
     background-color: #08061b;
     height: 60px;
     padding: 20px 30px 0px 30px;
+}
+
+div#serviços{
+    height: 800px;
+}
+
+div#linhabranca1{
+    width: 150px;
+    margin-bottom: 0px;
+}
+
+div#linhabranca2{
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+div#corte, div#barba, div#sobrancelha{
+    height: 200px;
+    width: 200px;
+    margin-top: 0px;
+    margin-bottom: 30px;
 }

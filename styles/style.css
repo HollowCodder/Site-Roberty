@@ -41,3 +41,45 @@ h1,p{
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.577);
 }
 
+div#serviços{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    background-image: url(../images/fundo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+div#linhabranca1,div#linhabranca2{
+    margin: auto;
+    background-color: white;
+    height: 5px;
+    margin-top: 10px;
+}
+
+div#corte{
+    background-image: url(../images/cabelo.jpg);
+}
+
+div#barba{
+    background-image: url(../images/barba.jpg);
+}
+
+div#sobrancelha{
+    background-image: url(../images/sobrancelha.jpg);
+}
+
+div#corte, div#barba, div#sobrancelha{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: auto;
+}
+
+div#serviços>div>img{
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
