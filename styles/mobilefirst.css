@@ -2,4 +2,22 @@
 
 div#inicial{
     height: 600px;
+    flex-direction: column;
+}
+
+div#inicial>h1{
+    order: 2;
+}
+
+div#logo{
+    order: 1;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+div#whatsapp{
+    order: 3;
+    display: flex;
+    flex-direction: row;
 }

@@ -18,12 +18,20 @@ body{
 
 
 div#inicial{
+    display: flex;
     background-color: black;
     background-image: url(../images/fundo1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
+}
+
+div#logo{
+    background-image: url(../images/logo.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 
