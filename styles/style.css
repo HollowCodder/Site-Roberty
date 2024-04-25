@@ -27,14 +27,6 @@ div#inicial{
     background-position: center center;
 }
 
-img#logo{
-    background-image: url(../images/logo.png);
-    background-position: center center;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-
 h1.laranja{
     color: #c7720f;
 }
