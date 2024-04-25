@@ -27,7 +27,7 @@ div#inicial{
     background-position: center center;
 }
 
-div#logo{
+img#logo{
     background-image: url(../images/logo.png);
     background-position: center center;
     background-size: contain;
