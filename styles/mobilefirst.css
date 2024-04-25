@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 div#inicial{
-    height: 530px;
+    height: 470px;
     flex-direction: column;
 }
 
@@ -20,8 +20,8 @@ p{
 
 img#logo{
     order: 1;
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -35,9 +35,8 @@ div#whatsapp{
     background-color: #c7720f;
     width: 190px;
     border-radius: 15px;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 0px;
+    margin: 30px 0px 0px 30px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.56);
 }
 
 div#whatsapp>p{
