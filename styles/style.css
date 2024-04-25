@@ -33,11 +33,20 @@ h1.branco{
     color: white;
 }
 
-p{
+p, a{
     color: white;
 }
 
-h1,p{
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #08061b;
+}
+
+h1,p, a{
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.577);
 }
 
