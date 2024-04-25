@@ -1,13 +1,13 @@
 @charset "UTF-8";
 
 div#inicial{
-    height: 600px;
+    height: 530px;
     flex-direction: column;
 }
 
 div#inicial>h1{
     order: 2;
-    margin: 0px 0px 0px 20px;
+    margin: 10px 0px 0px 30px;
 }
 
 img#logo{
@@ -15,6 +15,8 @@ img#logo{
     width: 200px;
     height: 200px;
     margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 div#whatsapp{
@@ -26,6 +28,8 @@ div#whatsapp{
     width: 200px;
     border-radius: 15px;
     margin: auto;
+    margin-top: 30px;
+    margin-bottom: 0px;
 }
 
 div#whatsapp>p{

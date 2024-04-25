@@ -22,7 +22,6 @@ div#inicial{
     background-image: url(../images/fundo1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
     background-position: center center;
 }
 
@@ -36,5 +35,9 @@ h1.branco{
 
 p{
     color: white;
+}
+
+h1,p{
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.577);
 }
 
