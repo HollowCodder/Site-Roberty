@@ -37,17 +37,11 @@ p, a{
     color: white;
 }
 
-a{
-    text-decoration: none;
-}
+
 
 a:hover{
     text-decoration: underline;
     color: #08061b;
-}
-
-a#linkinsta:hover{
-    color: #c7720f;
 }
 
 h1,p, a{
@@ -113,4 +107,17 @@ div#instagram{
     background-color: #08061b;
     padding-top: 20px;
     text-align: center;
+}
+
+footer{
+    background-color: black;
+}
+
+footer>p>a{
+    text-decoration: underline;
+}
+
+
+footer>p>a:hover{
+    color: #c7720f;
 }

@@ -41,6 +41,7 @@ div#whatsapp{
 
 div#whatsapp>a{
     padding: 7px 0px 0px 10px;
+    text-decoration: none;
 }
 
 img#logowhats{
@@ -84,7 +85,16 @@ div#linhalaranja2{
     margin-bottom: 10px;
 }
 
+div#instagram>h1>a{
+    text-decoration: underline;
+    color: #c7720f;
+}
+
 div#instagram>img{
     width: 200px;
     margin: 10px;
+}
+
+footer{
+    padding: 30px;
 }
