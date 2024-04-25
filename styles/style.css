@@ -46,6 +46,10 @@ a:hover{
     color: #08061b;
 }
 
+a#linkinsta:hover{
+    color: #c7720f;
+}
+
 h1,p, a{
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.577);
 }
