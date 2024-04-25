@@ -3,6 +3,7 @@
 @font-face {
     font-family: gotham;
     src: url(../font/Gotham_Black.otf);
+    src: url(https://fonts.google.com/share?selection.family=Poppins:ital,wght@0,400;);
 }
 
 *{
