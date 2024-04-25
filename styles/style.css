@@ -87,3 +87,17 @@ div#serviços>div>img{
     padding-top: 30px;
     padding-bottom: 15px;
 }
+
+div#linhalaranja1, div#linhalaranja2{
+    background-color: #c7720f;
+    height: 5px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+div#instagram{
+    flex-direction: column;
+    background-color: #08061b;
+    padding-top: 20px;
+    text-align: center;
+}
