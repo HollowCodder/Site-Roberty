@@ -28,30 +28,14 @@ img#logo{
 }
 
 div#whatsapp{
-    padding: 10px 10px 10px 15px;
     order: 3;
-    display: flex;
-    flex-direction: row;
-    background-color: #c7720f;
-    width: 200px;
-    border-radius: 15px;
     margin: 10px 0px 0px 30px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.56);
-}
-
-div#whatsapp>a{
-    padding: 7px 0px 0px 10px;
-    text-decoration: none;
 }
 
 img#logowhats{
     height: 35px;
     width: 35px;
-}
-
-div#caixaazul{
-    height: 40px;
-    padding: 30px;
 }
 
 div#serviços{
@@ -83,11 +67,6 @@ div#linhalaranja1{
 div#linhalaranja2{
     width: 300px;
     margin-bottom: 10px;
-}
-
-div#instagram>h1>a{
-    text-decoration: underline;
-    color: #c7720f;
 }
 
 div#instagram>img{
