@@ -64,6 +64,10 @@ div#categorias{
     justify-content: center;
 }
 
+div#serviços>div#categorias>div>p{
+    font-size: 17px;
+}
+
 div#corte, div#barba, div#sobrancelha{
     width: 300px;
     height: 300px;
