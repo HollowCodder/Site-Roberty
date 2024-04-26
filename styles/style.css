@@ -108,11 +108,6 @@ div#corte, div#barba, div#sobrancelha{
     margin: auto;
 }
 
-div#serviços>div#categorias>div>img{
-    padding-top: 30px;
-    padding-bottom: 15px;
-}
-
 div#linhalaranja1, div#linhalaranja2{
     background-color: #c7720f;
     height: 5px;

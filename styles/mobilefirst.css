@@ -60,6 +60,11 @@ div#corte, div#barba, div#sobrancelha{
     margin-bottom: 30px;
 }
 
+div#serviços>div#categorias>div>img{
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
 div#linhalaranja1{
     width: 200px;
 }
