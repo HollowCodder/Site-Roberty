@@ -23,6 +23,10 @@ div#mensageminicial{
 
 div#logo{
     order: 1;
+    
+}
+
+img#logo{
     width: 130px;
     height: 130px;
     margin: auto;
