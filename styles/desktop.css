@@ -9,31 +9,34 @@ body{
 }
 
 h1{
-    font-size: 45px;
+    font-size: 30px;
 }
 
 div#inicial{
     flex-direction: row;
     align-items: center;
-    height: 500px;
+    height: 480px;
 }
 
 div#mensageminicial{
     order: 1;
-    border: solid black 5px;
-    margin: 40px;
-    flex: 50%;
+    margin-left: 40px;
+    min-width: 200px;
+    max-width: 300px;
 }
 
-div#logo{
-    order: 2;
-    border: solid black 5px;
-    flex: 50%;
-    text-align: center;
+div#whatsapp{
+    padding: 7px;
 }
 
 img#logo{
-    width: 300px;
+    order: 2;
+    min-width: 200px;
+    max-width: 300px;
+    min-height: 200px;
+    max-height: 300px;
+    margin: auto;
+    padding: 30px;
 }
 
 div#whatsapp{
@@ -45,6 +48,78 @@ div#caixaazul>p{
     text-align: center;
 }
 
+div#serviços>div#linhabranca1{
+    width: 200px;
+}
+
+div#serviços>div#linhabranca2{
+    width: 260px;
+    margin-bottom: 30px;
+}
+
+div#categorias{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div#corte, div#barba, div#sobrancelha{
+    width: 300px;
+    height: 300px;
+    margin: 0px 20px 50px 20px;
+}
+
+div#corte{
+    align-self: flex-start;
+}
+
+div#barba{
+    align-self: center;
+}
+
+div#sobrancelha{
+    align-self: flex-end;
+}
+
+div#serviços>div#categorias>div>img{
+    margin: 30px 0px 50px 0px;
+}
+
+div#instagram{
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+div#modelos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div#linhalaranja1{
+    width: 260px;
+}
+
+div#instagram>h1{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+div#linhalaranja2{
+    width: 360px;
+    margin-bottom: 30px;
+}
+
+img#modelo1, img#modelo2, img#modelo3{
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+}
 
 
 
+footer{
+    padding: 20px;
+}

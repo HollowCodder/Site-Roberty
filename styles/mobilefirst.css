@@ -21,14 +21,11 @@ div#mensageminicial{
     order: 2;
 }
 
-div#logo{
+img#logo{
     order: 1;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 10px;
-}
-
-img#logo{
     width: 130px;
     height: 130px;
 }

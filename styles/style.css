@@ -143,3 +143,7 @@ footer>p>a{
 footer>p>a:hover{
     color: #c7720f;
 }
+
+img{
+    pointer-events: none;
+}
