@@ -1,23 +1,49 @@
 @charset "UTF-8";
 
 body{
+    min-width: 501px;
     max-width: 1200px;
     margin: auto;
     background-color: #060510;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.29);
 }
 
+h1{
+    font-size: 45px;
+}
+
 div#inicial{
     flex-direction: row;
-    height: 2000px;
+    align-items: center;
+    height: 500px;
 }
 
 div#mensageminicial{
     order: 1;
+    border: solid black 5px;
+    margin: 40px;
+    flex: 50%;
 }
 
 div#logo{
     order: 2;
+    border: solid black 5px;
+    flex: 50%;
+    text-align: center;
 }
+
+img#logo{
+    width: 300px;
+}
+
+div#whatsapp{
+    margin-top: 20px;
+}
+
+div#caixaazul>p{
+    font-size: 30px;
+    text-align: center;
+}
+
 
 
