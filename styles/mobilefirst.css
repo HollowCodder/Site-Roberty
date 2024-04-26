@@ -23,14 +23,14 @@ div#mensageminicial{
 
 div#logo{
     order: 1;
-        margin: auto;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 img#logo{
     width: 130px;
     height: 130px;
-    margin-top: 20px;
-    margin-bottom: 10px;
 }
 
 div#whatsapp{
