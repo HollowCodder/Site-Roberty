@@ -108,7 +108,7 @@ div#corte, div#barba, div#sobrancelha{
     margin: auto;
 }
 
-div#serviços>div>img{
+div#serviços>div#categorias>div>img{
     padding-top: 30px;
     padding-bottom: 15px;
 }
