@@ -5,8 +5,7 @@ div#inicial{
     flex-direction: column;
 }
 
-div#inicial>h1{
-    order: 2;
+div#inicial>div#mensageminicial>h1{
     margin: 5px 0px 0px 30px;
 }
 
@@ -18,7 +17,11 @@ p{
     font-size: 17px;
 }
 
-img#logo{
+div#mensageminicial{
+    order: 2;
+}
+
+div#logo{
     order: 1;
     width: 130px;
     height: 130px;
@@ -28,14 +31,8 @@ img#logo{
 }
 
 div#whatsapp{
-    order: 3;
     margin: 10px 0px 0px 30px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.56);
-}
-
-img#logowhats{
-    height: 35px;
-    width: 35px;
 }
 
 div#serviços{

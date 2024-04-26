@@ -51,6 +51,11 @@ div#whatsapp>a{
     text-decoration: none;
 }
 
+img#logowhats{
+    height: 35px;
+    width: 35px;
+}
+
 a:hover{
     text-decoration: underline;
     color: #08061b;
