@@ -113,6 +113,10 @@ footer{
     background-color: black;
 }
 
+footer>p{
+    font-size: 0.6em;
+}
+
 footer>p>a{
     text-decoration: underline;
 }
