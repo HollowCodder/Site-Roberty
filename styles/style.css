@@ -1,149 +1,195 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: gotham;
-    src: url(../font/Gotham_Black.otf);
+  font-family: gotham;
+  src: url(../font/GothamBlack.otf);
 }
 
-*{
-    padding: 0px;
-    margin: 0px;
+/* Configurações gerais */
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: gotham;
 }
 
-body{
-    font-family: gotham, sans-serif;
-    width: 100%;
+body {
+  max-width: 1200px;
+  margin: auto;
+  background-color: rgb(14, 14, 14);
+  box-shadow: 0px 0px 7px rgba(16, 73, 135, 0.556);
 }
 
-
-div#inicial{
-    display: flex;
-    background-color: black;
-    background-image: url(../images/fundo1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+.texto_branco {
+  color: white;
 }
 
-h1.laranja{
-    color: #c7720f;
+.texto_laranja {
+  color: #c7720f;
 }
 
-h1.branco{
-    color: white;
+h1 {
+  text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.637);
 }
 
-p, a{
-    color: white;
+/* Configuração geral da seção de apresentação */
+section#seção_1 {
+  background: black url(../images/fundo1.jpg) no-repeat center center;
+  background-size: cover;
+
+  display: flex;
 }
 
-div#whatsapp{
-    display: flex;
-    flex-direction: row;
-    background-color: #c7720f;
-    width: 200px;
-    border-radius: 15px;
-    padding: 10px 10px 10px 15px;
+main > section#seção_1 > div > button#botão_whatsapp {
+  width: 230px;
+  background-color: #c7720f;
+  padding: 0px;
+  border: none;
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
 }
 
-div#whatsapp>a{
-    padding: 7px 0px 0px 10px;
-    text-decoration: none;
+main > section#seção_1 > div > button#botão_whatsapp > a > img {
+  width: 40px;
+  padding-right: 5px;
 }
 
-img#logowhats{
-    height: 35px;
-    width: 35px;
+main > section#seção_1 > div > button#botão_whatsapp > a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding: 10px 30px;
 }
 
-a:hover{
-    text-decoration: underline;
-    color: #08061b;
+main > section#seção_1 > div > button#botão_whatsapp > a:hover {
+  color: black;
+  text-decoration: underline;
 }
 
-h1,p, a{
-    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.598);
+/* Configurações da frase extra */
+p#frase_extra {
+  color: white;
+  background-color: #08061b;
+  display: block;
+  text-align: justify;
 }
 
-div#caixaazul{
-    background-color: #08061b;
-    padding: 30px;
+/* Configuração da seção de serviços */
+section#seção_2 {
+  background: black url(../images/fundo2.jpg) no-repeat center center;
+  background-size: cover;
+
+  padding-top: 20px;
+  display: flex;
 }
 
-div#serviços{
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-    background-image: url(../images/fundo2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
-    text-align: center;
-    padding-top: 20px;
+section#seção_2 > div#linha_branca_menor,
+div#linha_branca_maior {
+  background-color: white;
+  height: 5px;
 }
 
-div#linhabranca1,div#linhabranca2{
-    margin: auto;
-    background-color: white;
-    height: 5px;
-    margin-top: 10px;
+section#seção_2 > h1 {
+  text-align: center;
+  padding: 5px;
 }
 
-div#corte{
-    background-image: url(../images/cabelo.jpg);
+div#cabelo {
+  background-image: url(../images/cabelo.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
-div#barba{
-    background-image: url(../images/barba.jpg);
+div#barba {
+  background-image: url(../images/barba.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
-div#sobrancelha{
-    background-image: url(../images/sobrancelha.jpg);
+div#sobrancelha {
+  background-image: url(../images/sobrancelha.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
-div#corte, div#barba, div#sobrancelha{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    margin: auto;
+.tipos_de_serviços {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-div#linhalaranja1, div#linhalaranja2{
-    background-color: #c7720f;
-    height: 5px;
-    margin: auto;
-    margin-top: 10px;
+.nomes_dos_serviços {
+  font-size: 20px;
+  text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.637);
 }
 
-div#instagram>h1>a{
-    text-decoration: underline;
-    color: #c7720f;
+/* Configurações da seção do instagram */
+section#seção_3 {
+  background-color: #08061b;
+  padding-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-div#instagram{
-    flex-direction: column;
-    background-color: #08061b;
-    padding-top: 20px;
-    text-align: center;
+section#seção_3 > div#linha_laranja_menor,
+div#linha_laranja_maior {
+  background-color: #c7720f;
+  height: 5px;
 }
 
-footer{
-    background-color: black;
+section#seção_3 > h1 {
+  text-align: center;
+  padding: 5px;
 }
 
-footer>p{
-    font-size: 0.6em;
+section#seção_3 > h1 > a {
+  color: #c7720f;
 }
 
-footer>p>a{
-    text-decoration: underline;
+section#seção_3 > h1 > a:hover {
+  color: red;
+  text-decoration: none;
 }
 
-
-footer>p>a:hover{
-    color: #c7720f;
+div#modelos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-img{
-    pointer-events: none;
+/* Configuração footer */
+footer {
+  color: white;
+  background-color: black;
+
+  font-size: 0.7em;
+  padding: 20px;
+}
+
+footer > nav > a {
+  color: rgb(43, 43, 226);
+}
+
+footer > nav > a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+footer > nav > a.links_do_meio::after {
+  content: ", ";
+  color: white;
+}
+
+footer > nav > a.link_final::after {
+  content: ".";
+  color: white;
 }

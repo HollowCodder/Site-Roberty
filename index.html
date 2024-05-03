@@ -1,70 +1,180 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css" media="screen">
-    <link rel="stylesheet" href="styles/mobilefirst.css" media="screen and (orientation: portrait) and (max-width: 500px)">
-    <link rel="stylesheet" href="styles/desktop.css" media="all and (min-width: 501px)">
-    <title>Vieira's Barbershop</title>
-</head>
-<body>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" media="screen" />
+    <link
+      rel="stylesheet"
+      href="styles/mobilefirst.css"
+      media="screen and (max-width: 500px)"
+    />
+    <link
+      rel="stylesheet"
+      href="styles/desktop.css"
+      media="screen and (min-width: 501px)"
+    />
+    <title>Vieira's Barbearia</title>
+    <meta name="description" content="
+    Está precisando dar aquele trato completo no visual? Aqui você faz barba, cabelo, sobranchelha. Localizados em Tianguá-CE, consulte nossos horários de atendimento e marque uma hora com a gente.
+    " />
+  </head>
+  <body>
     <main>
-
-        <div id="inicial">
-            <img src="images/logo.png" alt="Logo da barbearia" id="logo">
-            <div id="mensageminicial">
-                <h1 class="laranja">Cortamos cabelo e contamos histórias.</h1>
-                <h1 class="branco">As duas coisas são opcionais.</h1>
-                <div id="whatsapp">
-                    <img src="images/whatsicon.png" alt="Icone whatsapp" id="logowhats">
-                    <a href="https://contate.me/vieirasbabershop" target="_blank">Agende seu corte</a>
-                </div>
-            </div>
+      <!-- Seção de apresentação -->
+      <section id="seção_1">
+        <div>
+          <h1 id="texto_1" class="texto_laranja">
+            Cortamos cabelo e contamos histórias.
+          </h1>
+          <h1 id="texto_2" class="texto_branco">
+            As duas coisas<br />são opcionais.
+          </h1>
+          <button
+            title="Entrar em contato com o dono da barbearia por meio do whatsapp"
+            id="botão_whatsapp"
+          >
+            <a
+              href="https://api.whatsapp.com/send?phone=5588994528504&text=Ol%C3%A1,%20gostaria%20de%20marcar%20um%20hor%C3%A1rio%20para%20cortar%20o%20cabelo"
+              target="_blank"
+            >
+              <img
+                src="images/whatsicon.png"
+                alt="Ícone do aplicativo whatsapp"
+              />
+              Agende seu corte
+            </a>
+          </button>
         </div>
 
-        <div id="caixaazul">
-            <p class="branco">Aqui, você não é apenas um cliente, você é um membro da família.</p>
-        </div>
+        <img
+          src="images/logo.png"
+          alt="Logo da barbearia 'Vieira's Barbearia'"
+          id="logo"
+        />
+      </section>
+
+      <!-- Frase extra -->
+      <p id="frase_extra">
+        Aqui, você não é apenas um cliente, você é um membro da família.
+      </p>
+
+      <!-- Seção de serviços -->
+      <section id="seção_2">
+        <div id="linha_branca_menor"></div>
+
+        <h1 class="texto_laranja" tabindex="0">Nossos Serviços</h1>
+
+        <div id="linha_branca_maior"></div>
 
         <div id="serviços">
-            <div id="linhabranca1"></div>
-            <h1 class="laranja">Nossos Serviços</h1>
-            <div id="linhabranca2"></div>
-            <div id="categorias">
-                <div id="corte">
-                    <img src="images/máquina.png" alt="">
-                    <p>CORTE</p>
-                </div>
-                <div id="barba">
-                    <img src="images/lámina.png" alt="">
-                    <p>BARBA</p>
-                </div>
-                <div id="sobrancelha">
-                    <img src="images/pinça.png" alt="">
-                    <p>SOBRANCELHA</p>
-            </div>
-            </div>
+          <div id="cabelo" class="tipos_de_serviços">
+            <img
+              src="images/máquina.png"
+              alt="Ícone de máquina de cortar cabelo"
+            />
+            <p class="nomes_dos_serviços texto_branco">Corte</p>
+          </div>
+          <div id="barba" class="tipos_de_serviços">
+            <img src="images/lámina.png" alt="Ícone de lámina de barbear" />
+            <p class="nomes_dos_serviços texto_branco">Barba</p>
+          </div>
+          <div id="sobrancelha" class="tipos_de_serviços">
+            <img src="images/pinça.png" alt="Ícone de pinça de sobrancelha" />
+            <p class="nomes_dos_serviços texto_branco">Sobrancelha</p>
+          </div>
         </div>
+      </section>
 
-        <div id="instagram">
-            <div id="linhalaranja1"></div>
-            <h1 class="branco">Confira nosso <a href="https://www.instagram.com/vieiras.barbershop/" id="linkinsta" target="_blank">Instagram</a></h1>
-            <div id="linhalaranja2"></div>
-            <div id="modelos">
-                <img src="images/modelo1.jpg" alt="Modelo 1" id="modelo1">
-                <img src="images/modelo2.jpg" alt="Modelo 2" id="modelo2">
-                <img src="images/modelo3.jpg" alt="Modelo 3" id="modelo3">
-            </div>
+      <!-- Seção do instagram -->
+      <section id="seção_3">
+        <div id="linha_laranja_menor"></div>
+
+        <h1 class="texto_branco" tabindex="0">
+          Confira nosso
+          <a
+            href="https://www.instagram.com/vieiras.barbershop/"
+            target="_blank"
+            >instagram</a
+          >
+        </h1>
+
+        <div id="linha_laranja_maior"></div>
+
+        <div id="modelos">
+          <img
+            src="images/modelo1.jpg"
+            alt="Foto do modelo de cabelo 1"
+            class="fotos_modelos"
+          />
+          <img
+            src="images/modelo2.jpg"
+            alt="Foto do modelo de cabelo 2"
+            class="fotos_modelos"
+          />
+          <img
+            src="images/modelo3.jpg"
+            alt="Foto do modelo de cabelo 3"
+            class="fotos_modelos"
+          />
         </div>
-
+      </section>
     </main>
 
+    <!-- Direitos autorais e fotos externas usadas -->
     <footer>
-        <p><strong>&copy; 2024 - João Vitor - Todos os direitos reservados</strong></p>
-        <p>Imagens retiradas de:<br><a href="https://br.freepik.com/fotos-gratis/ferramentas-de-salao-de-beleza-de-moldura-vintage-em-uma-mesa-de-madeira-em-empregos-e-conceito-de-carreira_18836292.htm#query=barbearia&position=45&from_view=keyword&track=sph&uuid=a166ac68-8e1f-4910-b2f1-a0b5e71b6744" target="_blank">Imagem de rawpixel</a>, <a href="https://www.pexels.com/pt-br/foto/ferramentas-equipamento-maquinario-aparelhos-4730937/" target="_blank">Foto de Natasha Filippovskaya</a>, <a href="https://www.pexels.com/pt-br/foto/pessoa-segurando-navalha-reta-cinza-1319461/" target="_blank">Foto de Nikolaos Dimou</a>, <a href="https://www.pexels.com/pt-br/foto/homem-cortando-o-cabelo-da-pessoa-sentada-na-cadeira-1805600/" target="_blank">Foto de Dmitry Zvolskiy</a>, <a href="https://br.freepik.com/fotos-gratis/pinca-de-vista-superior-definida-na-mesa_8453538.htm#fromView=search&page=1&position=11&uuid=9fc5dda5-43ef-4c38-bc18-76ef4cdf6664" target="_blank">Foto de Freepik</a>, <a href="https://pixabay.com/pt/photos/cartuchos-vieiras-fundo-marisco-1009334/" target="_blank">Foto de Realme</a>.</p>
-    </footer>
+      <p tabindex="0">
+        <strong>
+          &copy; 2024 - João Vitor - Todos os direitos reservados
+        </strong>
+      </p>
 
-</body>
+      <p>Imagens retiradas de:</p>
+
+      <nav>
+        <a
+          href="https://br.freepik.com/fotos-gratis/ferramentas-de-salao-de-beleza-de-moldura-vintage-em-uma-mesa-de-madeira-em-empregos-e-conceito-de-carreira_18836292.htm#query=barbearia&position=45&from_view=keyword&track=sph&uuid=a166ac68-8e1f-4910-b2f1-a0b5e71b6744"
+          target="_blank"
+          class="links_do_meio"
+          tabindex="-1"
+          >Imagem de rawpixel</a
+        >
+        <a
+          href="https://www.pexels.com/pt-br/foto/ferramentas-equipamento-maquinario-aparelhos-4730937/"
+          target="_blank"
+          class="links_do_meio"
+          tabindex="-1"
+          >Foto de Natasha Filippovskaya</a
+        >
+        <a
+          href="https://www.pexels.com/pt-br/foto/pessoa-segurando-navalha-reta-cinza-1319461/"
+          target="_blank"
+          class="links_do_meio"
+          tabindex="-1"
+          >Foto de Nikolaos Dimou</a
+        >
+        <a
+          href="https://www.pexels.com/pt-br/foto/homem-cortando-o-cabelo-da-pessoa-sentada-na-cadeira-1805600/"
+          target="_blank"
+          class="links_do_meio"
+          tabindex="-1"
+          >Foto de Dmitry Zvolskiy</a
+        >
+        <a
+          href="https://br.freepik.com/fotos-gratis/pinca-de-vista-superior-definida-na-mesa_8453538.htm#fromView=search&page=1&position=11&uuid=9fc5dda5-43ef-4c38-bc18-76ef4cdf6664"
+          target="_blank"
+          class="links_do_meio"
+          tabindex="-1"
+          >Foto de Freepik</a
+        >
+        <a
+          href="https://pixabay.com/pt/photos/cartuchos-vieiras-fundo-marisco-1009334/"
+          target="_blank"
+          class="link_final"
+          tabindex="-1"
+          >Foto de Realme</a
+        >
+      </nav>
+    </footer>
+  </body>
 </html>

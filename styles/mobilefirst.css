@@ -1,81 +1,67 @@
 @charset "UTF-8";
 
-div#inicial{
-    height: 400px;
-    flex-direction: column;
+/* Configurações da seção de apresentação */
+section#seção_1 {
+  flex-direction: column-reverse;
 }
 
-div#inicial>div#mensageminicial>h1{
-    margin: 5px 0px 0px 30px;
+main > section#seção_1 > img#logo {
+  width: 150px;
+  margin: 20px auto;
 }
 
-h1{
-    font-size: 28px;
+main > section#seção_1 > div > h1 {
+  text-align: left;
+  margin: 0px 0px 5px 20px;
+  width: 250px;
 }
 
-p{
-    font-size: 17px;
+section#seção_1 > div > button {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-div#mensageminicial{
-    order: 2;
+/* Configurações da frase extra */
+p#frase_extra {
+  padding: 20px;
+  font-size: 14px;
 }
 
-img#logo{
-    order: 1;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    width: 130px;
-    height: 130px;
+/* Configuração da seção de serviços */
+section#seção_2 {
+  flex-direction: column;
+  align-items: center;
 }
 
-div#whatsapp{
-    margin: 10px 0px 0px 30px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.56);
+div#linha_branca_menor {
+  width: 120px;
 }
 
-div#serviços{
-    height: 800px;
+div#linha_branca_maior {
+  width: 220px;
 }
 
-div#linhabranca1{
-    width: 150px;
-    margin-bottom: 0px;
+.tipos_de_serviços {
+  width: 230px;
+  height: 230px;
+  margin: 20px;
 }
 
-div#linhabranca2{
-    width: 200px;
-    margin-top: 5px;
-    margin-bottom: 30px;
+/* Configurações da seção do instagram */
+div#linha_laranja_menor {
+  width: 180px;
 }
 
-div#corte, div#barba, div#sobrancelha{
-    height: 200px;
-    width: 200px;
-    margin-top: 0px;
-    margin-bottom: 30px;
+.fotos_modelos {
+  width: 230px;
+  margin: 20px;
 }
 
-div#serviços>div#categorias>div>img{
-    padding-top: 30px;
-    padding-bottom: 15px;
+div#linha_laranja_maior {
+  width: 230px;
 }
 
-div#linhalaranja1{
-    width: 200px;
-}
-
-div#linhalaranja2{
-    width: 300px;
-    margin-bottom: 10px;
-}
-
-div#instagram>div#modelos>img{
-    width: 200px;
-    margin: 10px;
-}
-
-footer{
-    padding: 15px 30px;
+div#modelos {
+  flex-direction: column;
 }
